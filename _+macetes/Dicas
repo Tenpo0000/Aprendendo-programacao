@@ -53,5 +53,3 @@ operadores:
                          //FORMATAÇÃO DE NUMEROS 
 n1.toFixed(2) //Coloca casas decimais no seu numero 
 n1.toLocaleString('pt-BR',{style:'currency', currency: 'BRL'}) //Converte o numero em dinheiro do Brasil
-
-
