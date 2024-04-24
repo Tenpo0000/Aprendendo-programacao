@@ -1,0 +1,1 @@
+print('\033[32m Bom dia\033[m')

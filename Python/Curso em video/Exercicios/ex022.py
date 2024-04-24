@@ -1,0 +1,6 @@
+nome = (input('Digite seu Nome completo')).strip()
+n1 = nome.split()
+print (nome.upper())
+print (nome.lower())
+print ('O nome:({}) Contém {} Letras'.format(nome,len(nome)-nome.count(' ')))
+print('O primeiro nome contém {} Letras'.format(nome.splitr.find(' ')))
