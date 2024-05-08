@@ -1,0 +1,11 @@
+h1 {
+    font: bold 30px arial;
+    text-align: center;
+}
+p{
+    font: normal 20px arial;
+}
+li{
+    font: normal 20px arial;
+    margin: 20px;
+}
