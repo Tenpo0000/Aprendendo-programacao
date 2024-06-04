@@ -1,0 +1,45 @@
+#background {
+    position: fixed;
+     /* Postion faz com que a imagem ou video fique fixada, ou seja, você vai rolar a pagina e a imagem não vai acompanhar */
+
+    inset: 0;  
+    /* Faz com que todos os comandos de posições top left right fiquem em 0 assim centralizando a imagem ou video*/
+
+    z-index: -1;
+    /*Faz com que o elemento seja jogado para trás*/
+
+}
+
+
+#background video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover
+}
+
+
+#background::after {
+    content: "";
+    width: inherit;
+    height: inherit;
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.87) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.925) 85%);
+}
+
+@media (min-width: 751px) {
+    #background video{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 750px) {
+    #background video{
+        width: 100%;
+        height: 100%;
+    }
+}

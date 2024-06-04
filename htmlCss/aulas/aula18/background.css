@@ -1,0 +1,26 @@
+#principal{
+    text-align: center;
+    color: #004e9c
+    
+}
+.titulo{
+    background-color: #4d99e4;
+    color:  #053566;
+    text-align: center;
+}
+
+.basico{
+    color:rgb(255, 0, 0);
+    text-transform: uppercase;
+
+}
+
+.intermediario{
+   color:green;
+   text-transform: uppercase; 
+}
+
+.avançado{
+    color: rgb(76, 0, 255);
+    text-transform: uppercase;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gruping tags</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+        }
+        header{
+            margin:10px;
+            padding: 5px;
+            background-color: rgb(114, 206, 230);
+         
+        }
+
+        h1.principal{
+            text-align: center;
+        }
+        
+        .navigation{
+            list-style: none;
+            margin: auto;
+            background-color: gray;
+            box-shadow:  5px 2px 6px rgba(0, 0, 0, 0.363);
+        }
+
+        .navigation > a{
+            text-decoration: none;
+            gap:3px;
+            color: white;
+            
+        }
+
+        main{
+            background-color: gray;
+            padding:10px;
+            margin:10px;
+            border-radius:6px ;
+
+        }
+        .noticias{
+            color: rgb(1, 26, 255);
+            background-color: beige;
+            padding: 2px;
+            margin: 20px;
+            text-align: center;
+            border-radius: 6px;
+        }
+
+        .artigo{
+            margin: auto;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer>p{
+            margin:0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>  
+        <h1 class="principal">Meu site</h1>
+        <nav>
+            <ul>
+                <li class="navigation">
+                    <a href="a">link</a>
+                    <a href="a">link</a>
+                    <a href="a">link</a>
+                    <a href="a">link</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main> 
+        <section class="noticias">
+            <p>Coisas</p>
+        </section>
+        <article class="artigo">
+            <h2>noticis sobre o brasil</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, corrupti. Veniam, necessitatibus culpa vero tenetur praesentium quisquam cum quidem porro accusamus, dolor inventore quae id eius earum numquam consequuntur magnam!</p>
+            <aside> 
+                <p>Feito por mim</p>
+            </aside>
+        </article>
+    </main>
+    <footer>
+        <P>Um oferecimento por mim</P>
+    </footer>
+</body>
+</html>
